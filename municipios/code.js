@@ -2,8 +2,7 @@ async function getEstado(uf) {
     try {
         const urlx = `https://servicodados.ibge.gov.br/api/v1/localidades/estados/${uf}/municipios`
       const data = await fetch(urlx);
-      const estado = await fetch(`https://servicodados.ibge.gov.br/api/v1/localidades/estados/${uf}`
-      const nomeEstado =
+    
       const jsonData = await data.json();
       const dado = jsonData;
       alert(dado);
