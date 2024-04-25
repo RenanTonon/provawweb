@@ -1,0 +1,16 @@
+#pagina {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+#cabecalho {
+    background-color:  #0074d9;
+}
+
+#principal {
+
+}
+
+#rodape {
+    background-color: #333 ;
+}
