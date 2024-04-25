@@ -1,16 +1,29 @@
-#pagina {
+body{
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 5fr 1fr;
+    gap: 10px;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+#pagina {
+    align-items: center;
+    justify-content: center;
+}
+#pagina ul li {
+    list-style: none;
+    text-decoration-style: none;
 }
 
 #cabecalho {
     background-color:  #0074d9;
+    color: aliceblue;
 }
-
-#principal {
-
+#cabecalho a {
+    color: white;
 }
-
 #rodape {
     background-color: #333 ;
 }
+
